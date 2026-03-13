@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RK Glass House | Glass Installation, Window Glass & Custom Glass Solutions</title>
+    <meta name="description" content="RK Glass House provides professional glass installation, window glass replacement, and custom glass solutions for homes and businesses. Quality craftsmanship, durable materials, and reliable service you can trust.">
+    <link rel="icon" href="/favicon.png">
+    <script>
+      // Prevent "Cannot set property fetch of #<Window> which has only a getter"
+      try {
+        const originalFetch = window.fetch;
+        Object.defineProperty(window, 'fetch', {
+          configurable: true,
+          enumerable: true,
+          get() { return originalFetch; },
+          set(val) {
+            console.warn('Ignored attempt to overwrite window.fetch');
+          }
+        });
+      } catch (e) {
+        console.error('Failed to redefine window.fetch', e);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
