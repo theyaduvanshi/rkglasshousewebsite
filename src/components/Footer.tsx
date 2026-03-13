@@ -76,7 +76,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className="block text-white font-medium mb-1">Email:</span>
-                <a href="mailto:rkglasshousemuhana@gmail.com" className="hover:text-[var(--color-brand-yellow)] transition-colors break-all">rkglasshousemuhana@gmail.com</a>
+                <a href="mailto:rkglass073@gmail.com" className="hover:text-[var(--color-brand-yellow)] transition-colors break-all">rkglass073@gmail.com</a>
               </li>
             </ul>
           </div>
